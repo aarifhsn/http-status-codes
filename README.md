@@ -16,10 +16,10 @@ __5xxs__ – Server errors: Failure. A valid request was made by the client but 
 
 # **Status code	Meaning**
 ## 1xx Informational	 
-**100**	Continue
-**101**	Switching protocols
-**102**	Processing
-**103**	Early Hints
+100	Continue
+101 Switching protocols
+102	Processing
+103	Early Hints
  	 
 ## 2xx Succesful	 
 **200**	OK

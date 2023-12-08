@@ -134,7 +134,7 @@ Failure. A valid request was made by the client but the server failed to complet
 **511**	Network Authentication Required
 
 
-## Referrence: 
+## Referrences: 
 #### https://moz.com/learn/seo/http-status-codes
 #### https://www.restapitutorial.com/httpstatuscodes.html
 #### https://umbraco.com/knowledge-base/http-status-codes/

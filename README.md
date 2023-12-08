@@ -5,15 +5,26 @@ An HTTP status code is a server response to a browser’s request. When you visi
 
 ## Common HTTP status code classes:
 
-_1xxs_ – Informational responses: The server is thinking through the request. A 1xx Informational status code means that the server has received the request and is continuing the process. A 1xx status code is purely temporary and is given while the request processing continues. For most tasks you won't encounter these much, as it's not the final response to the request.
+_1xxs_ – Informational responses: 
 
-_2xxs_ – Success! The request was successfully completed and the server gave the browser the expected response. A 2xx Succesful status code means that the request was successful and the browser has received the expected information. This is generally the one you want to see, as it means that the request was a success and has been received, understood and accepted it.
+The server is thinking through the request. A 1xx Informational status code means that the server has received the request and is continuing the process. A 1xx status code is purely temporary and is given while the request processing continues. For most tasks you won't encounter these much, as it's not the final response to the request.
 
-_3xxs_ – Redirection: You got redirected somewhere else. The request was received, but there’s a redirect of some kind. A 3xx Redirection status code means that you have been redirected and the completion of the request requires further action. Redirects are a natural part of the internet and you shouldn't be scared to have 3xx redirect status codes on your website.
+_2xxs_ – Success! 
 
-_4xxs_ – Client errors: Page not found. The site or page couldn’t be reached. (The request was made, but the page isn’t valid — this is an error on the website’s side of the conversation and often appears when a page doesn’t exist on the site.)
+The request was successfully completed and the server gave the browser the expected response. A 2xx Succesful status code means that the request was successful and the browser has received the expected information. This is generally the one you want to see, as it means that the request was a success and has been received, understood and accepted it.
 
-_5xxs_ – Server errors: Failure. A valid request was made by the client but the server failed to complete the request. A 5xx Server error status code means that while the request appears to be valid, the server could not complete the request. If you're experiencing 5xx server errors for your website, you should immediately look at your server. 
+_3xxs_ – Redirection: 
+
+You got redirected somewhere else. The request was received, but there’s a redirect of some kind. A 3xx Redirection status code means that you have been redirected and the completion of the request requires further action. Redirects are a natural part of the internet and you shouldn't be scared to have 3xx redirect status codes on your website.
+
+_4xxs_ – Client errors: 
+
+Page not found. The site or page couldn’t be reached. (The request was made, but the page isn’t valid — this is an error on the website’s side of the conversation and often appears when a page doesn’t exist on the site.)
+
+_5xxs_ – Server errors: 
+
+Failure. A valid request was made by the client but the server failed to complete the request. A 5xx Server error status code means that while the request appears to be valid, the server could not complete the request. If you're experiencing 5xx server errors for your website, you should immediately look at your server. 
+
 
 #Status code	Meaning : 
 

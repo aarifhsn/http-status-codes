@@ -20,8 +20,11 @@ _5xxs_ – Server errors: Failure. A valid request was made by the client but th
 ## 1xx Informational
 
 **100**	Continue
+
 **101**	Switching protocols
+
 **102**	Processing
+
 **103**	Early Hints
  	 
 ## 2xx Succesful	 

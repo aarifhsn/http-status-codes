@@ -4,9 +4,9 @@ An HTTP status code is a server response to a browser’s request. When you visi
 
 ## Common HTTP status code classes:
 
-__1xxs__ – Informational responses: The server is thinking through the request. A 1xx Informational status code means that the server has received the request and is continuing the process. A 1xx status code is purely temporary and is given while the request processing continues. For most tasks you won't encounter these much, as it's not the final response to the request.
+1xxs – Informational responses: The server is thinking through the request. A 1xx Informational status code means that the server has received the request and is continuing the process. A 1xx status code is purely temporary and is given while the request processing continues. For most tasks you won't encounter these much, as it's not the final response to the request.
 
-__2xxs__ – Success! The request was successfully completed and the server gave the browser the expected response. A 2xx Succesful status code means that the request was successful and the browser has received the expected information. This is generally the one you want to see, as it means that the request was a success and has been received, understood and accepted it.
+2xxs – Success! The request was successfully completed and the server gave the browser the expected response. A 2xx Succesful status code means that the request was successful and the browser has received the expected information. This is generally the one you want to see, as it means that the request was a success and has been received, understood and accepted it.
 
 __3xxs__ – Redirection: You got redirected somewhere else. The request was received, but there’s a redirect of some kind. A 3xx Redirection status code means that you have been redirected and the completion of the request requires further action. Redirects are a natural part of the internet and you shouldn't be scared to have 3xx redirect status codes on your website.
 
